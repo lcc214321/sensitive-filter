@@ -3,7 +3,12 @@
 *.project
 *.iml
 *.class
-/.idea/*
+#idea
+.idea/
+/idea/
 !*.java
 /.idea/
 /target/
+.settings/
+.project
+.classpath
