@@ -4,6 +4,7 @@
 这是一个敏感词的过滤器。
 采用的是类似hash桶的方式分散敏感词，提高hash命中。
 有两种加载资源的方式，可结合自身业务选择。
+入口：SensitiveFilter.DEFAULT.filter(str);
 
 
 ***备注***
